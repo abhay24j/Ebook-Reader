@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		449A9ECA467018549FD46B86 /* Pods_Ebook_Reader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53422F23B230BCF03A2BBDBD /* Pods_Ebook_Reader.framework */; };
+		BB11D05A291E78CA006D6576 /* Dracula Guest.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB11D056291E78CA006D6576 /* Dracula Guest.pdf */; };
+		BB11D05B291E78CA006D6576 /* SummerAdventureSotry8.10.17.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB11D057291E78CA006D6576 /* SummerAdventureSotry8.10.17.pdf */; };
+		BB11D05C291E78CA006D6576 /* Dubliners.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB11D058291E78CA006D6576 /* Dubliners.pdf */; };
+		BB11D05D291E78CA006D6576 /* Aaron's rod.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB11D059291E78CA006D6576 /* Aaron's rod.pdf */; };
+		BB1935A8291E0A8800852673 /* SettingTVC_NoBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1935A7291E0A8800852673 /* SettingTVC_NoBox.swift */; };
+		BB1935AB291E32AB00852673 /* MenuTblViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1935AA291E32AA00852673 /* MenuTblViewCell.swift */; };
+		BB1935AD291E32E000852673 /* DownLoadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1935AC291E32E000852673 /* DownLoadVC.swift */; };
+		BB1D0242291D2B89008CA25B /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1D0241291D2B89008CA25B /* SettingVC.swift */; };
+		BB1D0244291D2C12008CA25B /* SettingTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1D0243291D2C12008CA25B /* SettingTVC.swift */; };
+		BB34F3BC29122F23009A7951 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34F3BB29122F23009A7951 /* AppDelegate.swift */; };
+		BB34F3BE29122F23009A7951 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34F3BD29122F23009A7951 /* SceneDelegate.swift */; };
+		BB34F3C029122F23009A7951 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34F3BF29122F23009A7951 /* ViewController.swift */; };
+		BB34F3C329122F23009A7951 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB34F3C129122F23009A7951 /* Main.storyboard */; };
+		BB34F3C529122F24009A7951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB34F3C429122F24009A7951 /* Assets.xcassets */; };
+		BB34F3C829122F24009A7951 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB34F3C629122F24009A7951 /* LaunchScreen.storyboard */; };
+		BB34F3D029126D2A009A7951 /* BooksCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB34F3CF29126D2A009A7951 /* BooksCVCell.swift */; };
+		BB5C05E72914E39A0087F956 /* a-little-princess-001-chapter-1-sara.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB5C05E62914E3990087F956 /* a-little-princess-001-chapter-1-sara.pdf */; };
+		BB5C05EA2914E7310087F956 /* a-christmas-carol-002-stave-i.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB5C05E92914E7310087F956 /* a-christmas-carol-002-stave-i.pdf */; };
+		BB5C05EE2914EAF30087F956 /* the-blue-fairy-book-001-aladdin-and-the-wonderful-lamp.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB5C05ED2914EAF20087F956 /* the-blue-fairy-book-001-aladdin-and-the-wonderful-lamp.pdf */; };
+		BB5C05F029152BB40087F956 /* Adrift-on-the-Pacific-Booktree.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BB5C05EF29152BB40087F956 /* Adrift-on-the-Pacific-Booktree.pdf */; };
+		BB5C05F4291534EF0087F956 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5C05F3291534EF0087F956 /* WebViewController.swift */; };
+		BB5C05F929153A6F0087F956 /* bern.txt in Resources */ = {isa = PBXBuildFile; fileRef = BB5C05F829153A6F0087F956 /* bern.txt */; };
+		BB8722F52924BB62004DB2C3 /* sample.doc in Resources */ = {isa = PBXBuildFile; fileRef = BB8722F42924BA84004DB2C3 /* sample.doc */; };
+		BB90965629162961007A631D /* MenuTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB90965529162961007A631D /* MenuTVC.swift */; };
+		BB97002B2922271800D9E50A /* BooksData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB97002A2922271800D9E50A /* BooksData.swift */; };
+		BBB3F9932913D7E400096DBB /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB3F9922913D7E400096DBB /* MenuTableViewCell.swift */; };
+		BBBDEAEE2923611F008007C1 /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBBDEAED2923611F008007C1 /* BookViewController.swift */; };
+		BBBDEAFE292362FE008007C1 /* libskyepub.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBBDEAF029236194008007C1 /* libskyepub.a */; };
+		BBBDEB02292367A4008007C1 /* Alice.epub in Resources */ = {isa = PBXBuildFile; fileRef = BBBDEB0129236782008007C1 /* Alice.epub */; };
+		BBBDEB0329237665008007C1 /* The Silver Chair.epub in Resources */ = {isa = PBXBuildFile; fileRef = BB5C05F6291535EF0087F956 /* The Silver Chair.epub */; };
+		BBDE3AC2291BBD6100148050 /* CollectionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE3AC1291BBD6100148050 /* CollectionsVC.swift */; };
+		BBDE3AC4291BBF8500148050 /* CollectionsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDE3AC3291BBF8500148050 /* CollectionsTVC.swift */; };
+		BBF11E95291A906900DAE12C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF11E94291A906900DAE12C /* LoginVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21A61D4FFD9A9B8358D76A6C /* Pods-Ebook Reader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ebook Reader.debug.xcconfig"; path = "Target Support Files/Pods-Ebook Reader/Pods-Ebook Reader.debug.xcconfig"; sourceTree = "<group>"; };
+		363574D3071B6B1C142344BB /* Pods-Ebook Reader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ebook Reader.release.xcconfig"; path = "Target Support Files/Pods-Ebook Reader/Pods-Ebook Reader.release.xcconfig"; sourceTree = "<group>"; };
+		53422F23B230BCF03A2BBDBD /* Pods_Ebook_Reader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ebook_Reader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB11D056291E78CA006D6576 /* Dracula Guest.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Dracula Guest.pdf"; sourceTree = "<group>"; };
+		BB11D057291E78CA006D6576 /* SummerAdventureSotry8.10.17.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = SummerAdventureSotry8.10.17.pdf; sourceTree = "<group>"; };
+		BB11D058291E78CA006D6576 /* Dubliners.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Dubliners.pdf; sourceTree = "<group>"; };
+		BB11D059291E78CA006D6576 /* Aaron's rod.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Aaron's rod.pdf"; sourceTree = "<group>"; };
+		BB1935A7291E0A8800852673 /* SettingTVC_NoBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTVC_NoBox.swift; sourceTree = "<group>"; };
+		BB1935AA291E32AA00852673 /* MenuTblViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTblViewCell.swift; sourceTree = "<group>"; };
+		BB1935AC291E32E000852673 /* DownLoadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownLoadVC.swift; sourceTree = "<group>"; };
+		BB1D0241291D2B89008CA25B /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		BB1D0243291D2C12008CA25B /* SettingTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTVC.swift; sourceTree = "<group>"; };
+		BB34F3B829122F23009A7951 /* Ebook Reader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ebook Reader.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB34F3BB29122F23009A7951 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BB34F3BD29122F23009A7951 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BB34F3BF29122F23009A7951 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB34F3C229122F23009A7951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB34F3C429122F24009A7951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB34F3C729122F24009A7951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BB34F3C929122F24009A7951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB34F3CF29126D2A009A7951 /* BooksCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksCVCell.swift; sourceTree = "<group>"; };
+		BB5C05E62914E3990087F956 /* a-little-princess-001-chapter-1-sara.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "a-little-princess-001-chapter-1-sara.pdf"; sourceTree = "<group>"; };
+		BB5C05E92914E7310087F956 /* a-christmas-carol-002-stave-i.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "a-christmas-carol-002-stave-i.pdf"; sourceTree = "<group>"; };
+		BB5C05ED2914EAF20087F956 /* the-blue-fairy-book-001-aladdin-and-the-wonderful-lamp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "the-blue-fairy-book-001-aladdin-and-the-wonderful-lamp.pdf"; sourceTree = "<group>"; };
+		BB5C05EF29152BB40087F956 /* Adrift-on-the-Pacific-Booktree.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Adrift-on-the-Pacific-Booktree.pdf"; sourceTree = "<group>"; };
+		BB5C05F3291534EF0087F956 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		BB5C05F6291535EF0087F956 /* The Silver Chair.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "The Silver Chair.epub"; sourceTree = "<group>"; };
+		BB5C05F829153A6F0087F956 /* bern.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bern.txt; sourceTree = "<group>"; };
+		BB8722F42924BA84004DB2C3 /* sample.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.doc; sourceTree = "<group>"; };
+		BB90965529162961007A631D /* MenuTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTVC.swift; sourceTree = "<group>"; };
+		BB97002A2922271800D9E50A /* BooksData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksData.swift; sourceTree = "<group>"; };
+		BBB3F9922913D7E400096DBB /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		BBBDEAED2923611F008007C1 /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		BBBDEAF029236194008007C1 /* libskyepub.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libskyepub.a; sourceTree = "<group>"; };
+		BBBDEAF129236194008007C1 /* ContentProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentProvider.h; sourceTree = "<group>"; };
+		BBBDEAF229236194008007C1 /* SkyEpub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyEpub.h; sourceTree = "<group>"; };
+		BBBDEAF329236194008007C1 /* SpeechSynthesizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeechSynthesizer.h; sourceTree = "<group>"; };
+		BBBDEAF429236194008007C1 /* ReflowableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflowableViewController.h; sourceTree = "<group>"; };
+		BBBDEAF529236194008007C1 /* SkyProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyProvider.h; sourceTree = "<group>"; };
+		BBBDEAF629236194008007C1 /* FixedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedViewController.h; sourceTree = "<group>"; };
+		BBBDEAF729236194008007C1 /* SearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResult.h; sourceTree = "<group>"; };
+		BBBDEAF829236194008007C1 /* BookInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookInformation.h; sourceTree = "<group>"; };
+		BBBDEAF929236194008007C1 /* SkyKeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyKeyManager.h; sourceTree = "<group>"; };
+		BBBDEAFA29236194008007C1 /* SkyDRMControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkyDRMControl.h; sourceTree = "<group>"; };
+		BBBDEAFB29236194008007C1 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		BBBDEAFC29236194008007C1 /* Highlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Highlight.h; sourceTree = "<group>"; };
+		BBBDEAFF29236327008007C1 /* Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		BBBDEB0129236782008007C1 /* Alice.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = Alice.epub; sourceTree = "<group>"; };
+		BBDE3AC1291BBD6100148050 /* CollectionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsVC.swift; sourceTree = "<group>"; };
+		BBDE3AC3291BBF8500148050 /* CollectionsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsTVC.swift; sourceTree = "<group>"; };
+		BBF11E94291A906900DAE12C /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB34F3B529122F23009A7951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449A9ECA467018549FD46B86 /* Pods_Ebook_Reader.framework in Frameworks */,
+				BBBDEAFE292362FE008007C1 /* libskyepub.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		724E333577BB16C43843BDCA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21A61D4FFD9A9B8358D76A6C /* Pods-Ebook Reader.debug.xcconfig */,
+				363574D3071B6B1C142344BB /* Pods-Ebook Reader.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		872C2CB3707776DB61250642 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53422F23B230BCF03A2BBDBD /* Pods_Ebook_Reader.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB1935A9291E328600852673 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				BB1935AC291E32E000852673 /* DownLoadVC.swift */,
+				BB1935AA291E32AA00852673 /* MenuTblViewCell.swift */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		BB1D0240291D2B62008CA25B /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				BB1D0241291D2B89008CA25B /* SettingVC.swift */,
+				BB1D0243291D2C12008CA25B /* SettingTVC.swift */,
+				BB1935A7291E0A8800852673 /* SettingTVC_NoBox.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		BB34F3AF29122F23009A7951 = {
+			isa = PBXGroup;
+			children = (
+				BB34F3BA29122F23009A7951 /* Ebook Reader */,
+				BB34F3B929122F23009A7951 /* Products */,
+				724E333577BB16C43843BDCA /* Pods */,
+				872C2CB3707776DB61250642 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BB34F3B929122F23009A7951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB34F3B829122F23009A7951 /* Ebook Reader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB34F3BA29122F23009A7951 /* Ebook Reader */ = {
+			isa = PBXGroup;
+			children = (
+				BB8722F32924BA45004DB2C3 /* Doc File */,
+				BBBDEB0029236761008007C1 /* Samples */,
+				BBBDEAFF29236327008007C1 /* Bridge.h */,
+				BBBDEAEF29236166008007C1 /* SkyEpub */,
+				BB90967C29166D66007A631D /* textFiles */,
+				BB5C05F5291535D90087F956 /* Epub Files */,
+				BB5C05E82914E3A40087F956 /* PDF Files */,
+				BBB3F9942913F0B100096DBB /* Delegate */,
+				BBB3F9952913F0CE00096DBB /* StoryBoard */,
+				BBB3F9962913F0F000096DBB /* Controller */,
+				BB34F3C429122F24009A7951 /* Assets.xcassets */,
+				BB34F3C929122F24009A7951 /* Info.plist */,
+			);
+			path = "Ebook Reader";
+			sourceTree = "<group>";
+		};
+		BB5C05E82914E3A40087F956 /* PDF Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB11D059291E78CA006D6576 /* Aaron's rod.pdf */,
+				BB11D056291E78CA006D6576 /* Dracula Guest.pdf */,
+				BB11D058291E78CA006D6576 /* Dubliners.pdf */,
+				BB11D057291E78CA006D6576 /* SummerAdventureSotry8.10.17.pdf */,
+				BB5C05E92914E7310087F956 /* a-christmas-carol-002-stave-i.pdf */,
+				BB5C05EF29152BB40087F956 /* Adrift-on-the-Pacific-Booktree.pdf */,
+				BB5C05ED2914EAF20087F956 /* the-blue-fairy-book-001-aladdin-and-the-wonderful-lamp.pdf */,
+				BB5C05E62914E3990087F956 /* a-little-princess-001-chapter-1-sara.pdf */,
+			);
+			path = "PDF Files";
+			sourceTree = "<group>";
+		};
+		BB5C05F1291534A10087F956 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C05F3291534EF0087F956 /* WebViewController.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		BB5C05F2291534BA0087F956 /* Home  */ = {
+			isa = PBXGroup;
+			children = (
+				BB34F3BF29122F23009A7951 /* ViewController.swift */,
+				BB34F3CF29126D2A009A7951 /* BooksCVCell.swift */,
+				BBB3F9922913D7E400096DBB /* MenuTableViewCell.swift */,
+				BB90965529162961007A631D /* MenuTVC.swift */,
+				BB97002A2922271800D9E50A /* BooksData.swift */,
+			);
+			path = "Home ";
+			sourceTree = "<group>";
+		};
+		BB5C05F5291535D90087F956 /* Epub Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C05F6291535EF0087F956 /* The Silver Chair.epub */,
+			);
+			path = "Epub Files";
+			sourceTree = "<group>";
+		};
+		BB8722F32924BA45004DB2C3 /* Doc File */ = {
+			isa = PBXGroup;
+			children = (
+				BB8722F42924BA84004DB2C3 /* sample.doc */,
+			);
+			path = "Doc File";
+			sourceTree = "<group>";
+		};
+		BB90967C29166D66007A631D /* textFiles */ = {
+			isa = PBXGroup;
+			children = (
+				BB5C05F829153A6F0087F956 /* bern.txt */,
+			);
+			path = textFiles;
+			sourceTree = "<group>";
+		};
+		BBB3F9942913F0B100096DBB /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BB34F3BB29122F23009A7951 /* AppDelegate.swift */,
+				BB34F3BD29122F23009A7951 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		BBB3F9952913F0CE00096DBB /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				BB34F3C129122F23009A7951 /* Main.storyboard */,
+				BB34F3C629122F24009A7951 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		BBB3F9962913F0F000096DBB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDEAEC29236101008007C1 /* EpubController */,
+				BB1935A9291E328600852673 /* Download */,
+				BB1D0240291D2B62008CA25B /* Setting */,
+				BBDE3AC0291BBD4100148050 /* Collections */,
+				BBF11E93291A904400DAE12C /* Login */,
+				BB5C05F2291534BA0087F956 /* Home  */,
+				BB5C05F1291534A10087F956 /* WebView */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BBBDEAEC29236101008007C1 /* EpubController */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDEAED2923611F008007C1 /* BookViewController.swift */,
+			);
+			path = EpubController;
+			sourceTree = "<group>";
+		};
+		BBBDEAEF29236166008007C1 /* SkyEpub */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDEAFB29236194008007C1 /* Book.h */,
+				BBBDEAF829236194008007C1 /* BookInformation.h */,
+				BBBDEAF129236194008007C1 /* ContentProvider.h */,
+				BBBDEAF629236194008007C1 /* FixedViewController.h */,
+				BBBDEAFC29236194008007C1 /* Highlight.h */,
+				BBBDEAF029236194008007C1 /* libskyepub.a */,
+				BBBDEAF429236194008007C1 /* ReflowableViewController.h */,
+				BBBDEAF729236194008007C1 /* SearchResult.h */,
+				BBBDEAFA29236194008007C1 /* SkyDRMControl.h */,
+				BBBDEAF229236194008007C1 /* SkyEpub.h */,
+				BBBDEAF929236194008007C1 /* SkyKeyManager.h */,
+				BBBDEAF529236194008007C1 /* SkyProvider.h */,
+				BBBDEAF329236194008007C1 /* SpeechSynthesizer.h */,
+			);
+			path = SkyEpub;
+			sourceTree = "<group>";
+		};
+		BBBDEB0029236761008007C1 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDEB0129236782008007C1 /* Alice.epub */,
+			);
+			path = Samples;
+			sourceTree = "<group>";
+		};
+		BBDE3AC0291BBD4100148050 /* Collections */ = {
+			isa = PBXGroup;
+			children = (
+				BBDE3AC1291BBD6100148050 /* CollectionsVC.swift */,
+				BBDE3AC3291BBF8500148050 /* CollectionsTVC.swift */,
+			);
+			path = Collections;
+			sourceTree = "<group>";
+		};
+		BBF11E93291A904400DAE12C /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BBF11E94291A906900DAE12C /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB34F3B729122F23009A7951 /* Ebook Reader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB34F3CC29122F24009A7951 /* Build configuration list for PBXNativeTarget "Ebook Reader" */;
+			buildPhases = (
+				176F0E8176D3E0C27F70AD7D /* [CP] Check Pods Manifest.lock */,
+				BB34F3B429122F23009A7951 /* Sources */,
+				BB34F3B529122F23009A7951 /* Frameworks */,
+				BB34F3B629122F23009A7951 /* Resources */,
+				B216C69C97EA0B4335C833E7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ebook Reader";
+			productName = "Ebook Reader";
+			productReference = BB34F3B829122F23009A7951 /* Ebook Reader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB34F3B029122F23009A7951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BB34F3B729122F23009A7951 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BB34F3B329122F23009A7951 /* Build configuration list for PBXProject "Ebook Reader" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB34F3AF29122F23009A7951;
+			productRefGroup = BB34F3B929122F23009A7951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB34F3B729122F23009A7951 /* Ebook Reader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB34F3B629122F23009A7951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8722F52924BB62004DB2C3 /* sample.doc in Resources */,
+				BBBDEB0329237665008007C1 /* The Silver Chair.epub in Resources */,
+				BBBDEB02292367A4008007C1 /* Alice.epub in Resources */,
+				BB5C05F029152BB40087F956 /* Adrift-on-the-Pacific-Booktree.pdf in Resources */,
+				BB5C05EA2914E7310087F956 /* a-christmas-carol-002-stave-i.pdf in Resources */,
+				BB5C05EE2914EAF30087F956 /* the-blue-fairy-book-001-aladdin-and-the-wonderful-lamp.pdf in Resources */,
+				BB11D05D291E78CA006D6576 /* Aaron's rod.pdf in Resources */,
+				BB34F3C829122F24009A7951 /* LaunchScreen.storyboard in Resources */,
+				BB11D05B291E78CA006D6576 /* SummerAdventureSotry8.10.17.pdf in Resources */,
+				BB5C05E72914E39A0087F956 /* a-little-princess-001-chapter-1-sara.pdf in Resources */,
+				BB11D05A291E78CA006D6576 /* Dracula Guest.pdf in Resources */,
+				BB5C05F929153A6F0087F956 /* bern.txt in Resources */,
+				BB34F3C529122F24009A7951 /* Assets.xcassets in Resources */,
+				BB11D05C291E78CA006D6576 /* Dubliners.pdf in Resources */,
+				BB34F3C329122F23009A7951 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		176F0E8176D3E0C27F70AD7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ebook Reader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B216C69C97EA0B4335C833E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ebook Reader/Pods-Ebook Reader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ebook Reader/Pods-Ebook Reader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ebook Reader/Pods-Ebook Reader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB34F3B429122F23009A7951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDE3AC2291BBD6100148050 /* CollectionsVC.swift in Sources */,
+				BB34F3C029122F23009A7951 /* ViewController.swift in Sources */,
+				BB97002B2922271800D9E50A /* BooksData.swift in Sources */,
+				BB1935AB291E32AB00852673 /* MenuTblViewCell.swift in Sources */,
+				BBBDEAEE2923611F008007C1 /* BookViewController.swift in Sources */,
+				BB5C05F4291534EF0087F956 /* WebViewController.swift in Sources */,
+				BBDE3AC4291BBF8500148050 /* CollectionsTVC.swift in Sources */,
+				BBF11E95291A906900DAE12C /* LoginVC.swift in Sources */,
+				BB34F3BC29122F23009A7951 /* AppDelegate.swift in Sources */,
+				BB1D0244291D2C12008CA25B /* SettingTVC.swift in Sources */,
+				BB34F3BE29122F23009A7951 /* SceneDelegate.swift in Sources */,
+				BB1D0242291D2B89008CA25B /* SettingVC.swift in Sources */,
+				BB34F3D029126D2A009A7951 /* BooksCVCell.swift in Sources */,
+				BB90965629162961007A631D /* MenuTVC.swift in Sources */,
+				BB1935A8291E0A8800852673 /* SettingTVC_NoBox.swift in Sources */,
+				BBB3F9932913D7E400096DBB /* MenuTableViewCell.swift in Sources */,
+				BB1935AD291E32E000852673 /* DownLoadVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB34F3C129122F23009A7951 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB34F3C229122F23009A7951 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB34F3C629122F24009A7951 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB34F3C729122F24009A7951 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB34F3CA29122F24009A7951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB34F3CB29122F24009A7951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB34F3CD29122F24009A7951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21A61D4FFD9A9B8358D76A6C /* Pods-Ebook Reader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79G7F2QQ57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ebook Reader/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/SkyEpub",
+					"$(PROJECT_DIR)/Ebook\\ Reader/SkyEpub",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhay.Ebook-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/abhaykmar/Desktop/Ebook Reader/Ebook Reader/Bridge.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BB34F3CE29122F24009A7951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 363574D3071B6B1C142344BB /* Pods-Ebook Reader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 79G7F2QQ57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ebook Reader/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/SkyEpub",
+					"$(PROJECT_DIR)/Ebook\\ Reader/SkyEpub",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abhay.Ebook-Reader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/abhaykmar/Desktop/Ebook Reader/Ebook Reader/Bridge.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB34F3B329122F23009A7951 /* Build configuration list for PBXProject "Ebook Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB34F3CA29122F24009A7951 /* Debug */,
+				BB34F3CB29122F24009A7951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB34F3CC29122F24009A7951 /* Build configuration list for PBXNativeTarget "Ebook Reader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB34F3CD29122F24009A7951 /* Debug */,
+				BB34F3CE29122F24009A7951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB34F3B029122F23009A7951 /* Project object */;
+}

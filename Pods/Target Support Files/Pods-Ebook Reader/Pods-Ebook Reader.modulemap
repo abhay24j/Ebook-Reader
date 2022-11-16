@@ -1,0 +1,6 @@
+framework module Pods_Ebook_Reader {
+  umbrella header "Pods-Ebook Reader-umbrella.h"
+
+  export *
+  module * { export * }
+}
